@@ -1,0 +1,62 @@
+/*总体*/
+body{background: radial-gradient(#444444,#222222,#000000) no-repeat;}
+.active{color: #FF6700 !important;}
+#container{width: 14.4rem;height: 20rem;position: relative;	margin: 0 auto;	}
+
+/*轮播图*/
+#banner{width: 100%;position: relative;}
+#banner .banner_img_a{width: 100%;}
+#banner .banner_img_a img{width: 100%;}
+
+/*轮播图指示器*/
+#banner .indicator{position: absolute;left: 1rem;top: 3.5rem;}
+#banner .indicator span{display: inline-block;text-align: center;width: 0.3rem;font-size: 0.2rem;background-color: black;opacity: 0.5;color: white;border: 0.01rem solid black;float: left;margin-left: 0.05rem;cursor: pointer;	}
+#banner .indicator span.cur{border: 0.01rem solid orange;}
+
+/*挡板*/
+#screen{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	background-color: #EEEEEE;
+	opacity: 0.6;
+}
+
+/*导航栏*/
+#nav{width: 14.4rem;font-size: 0.2rem;background-color: white;z-index: 900;}
+#nav .menu{width: 100%;margin: 0 auto;}
+#nav .menu ul{overflow: hidden;text-align: center;display: flex;}
+#nav .menu ul li{float: left;flex-basis: 11.11111%;line-height: 0.8rem;cursor: pointer;}
+#nav .menu ul li#login{color: #9FC2DB;}
+
+/*导航栏下拉菜单*/
+#nav .drop_down{border-top: 0.02rem solid gainsboro;font-size: 0.2rem;padding: 0.2rem;display: none;}
+#nav .drop_down ul{overflow: hidden;display: flex;text-align: center;}
+#nav .drop_down ul li{float: left;flex-basis: 16.6666%;}
+#nav .drop_down ul li img{width: 1.5rem;height: 1rem;cursor: pointer;}
+#nav .drop_down .pro_name{font-size: 0.15rem;}
+#nav .drop_down .pro_price{color: #FF6700;}
+
+/*烟花*/
+div.fire{width: 1px;height: 5px;background-color: yellow;position: absolute;bottom: 0;}
+.fire div{position: absolute;width: 2px;height: 2px;display: none;opacity: 0;}
+.fire_1{top: 3px;left: 13px;background-color: green;}
+.fire_2{top: 11px;left: 8px;background-color: red;}
+.fire_3{top: 16px;left: 0px;background-color: orange;}
+.fire_4{top: 3px;left: -13px;background-color: green;}
+.fire_5{top: 11px;left: -7px;background-color: orange;}
+.fire_6{top: -13px;left: 0px;background-color: red;}
+.fire_7{top: -5px;left: -8px;background-color: orange;}
+.fire_8{top: -3px;left: 8px;background-color: red;}
+.fire_9{top: 3px;left: 23px;background-color: orange;}
+.fire_10{top: 14px;left: 15px;background-color: green;}
+.fire_11{top: 25px;left: 0px;background-color: red;}
+.fire_12{top: 3px;left: -23px;background-color: orange;}
+.fire_13{top: 15px;left: -15px;background-color: red;}
+.fire_14{top: -20px;left: 0px;background-color: green;}
+.fire_15{top: -9px;left: -15px;background-color: orange;}
+.fire_16{top: -9px;left: 15px;background-color: green;}
+.fire_17{top: 6px;left: 0px;background-color: green;}
+
